@@ -9,3 +9,5 @@ spec:
       protocol: TCP
   selector:
     app: vpromc
+  type:
+    ClusterIP

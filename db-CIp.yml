@@ -9,3 +9,5 @@ spec:
       protocol: TCP
   selector:
     app: vprodb
+  type:
+    ClusterIP
