@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vproapp
-          image: rafath25/coursejetapp2:v1
+          image: rafath25/coursejetapp2:V1
           ports:
             - name: vproapp-port
               containerPort: 8080
