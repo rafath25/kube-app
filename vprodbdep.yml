@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: rafath25/coursejetdb2:v1
+          image: rafath25/coursejetdb2:V1
           args:
             - "--ignore-db-dir: lost+found"
           volumeMounts:
